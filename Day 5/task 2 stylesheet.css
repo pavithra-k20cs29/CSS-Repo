@@ -1,0 +1,10 @@
+.c1 h1{
+    color:crimson ;
+    background-color: aqua;
+}
+
+.c1 p{
+    color: blueviolet;
+    background-color: rgb(104, 196, 104);
+    padding: 10px;
+}
