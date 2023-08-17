@@ -1,0 +1,20 @@
+/* ellipsis */
+.c1 input{
+    text-overflow: ellipsis;
+}
+/* clip */
+.c2 input{
+    text-overflow: clip;
+}
+/* string */
+.c3 input{
+    text-overflow: "------";
+}
+/* inherit */
+.c4{
+
+    text-overflow: ellipsis;
+}
+input{
+    text-overflow: inherit;
+}

@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://artltdmag.com/wp-content/uploads/2021/12/best-pens-for-note-taking.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    width: 40%;
+    
+}
+h1{
+    text-align: center;
+    color: chartreuse;
+}
+p{
+    color: #00ffff;
+    text-align: left;
+}
+h3{
+    color: chartreuse;
+}
+input{
+    color: rgb(243, 243, 245);
+    text-align: center;
+    padding: 10px;
+    background-color: darkgoldenrod;
+}
