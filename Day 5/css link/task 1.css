@@ -1,0 +1,29 @@
+.c1:hover{
+    color: rgb(12, 205, 150);
+    font-size: 100px;
+    background-color: darkolivegreen;
+    width: 400px;
+}
+.c2:link{
+    color: darkgoldenrod;
+    background-color: white;
+
+}
+.c3:visited{
+    color: blueviolet;
+}
+ol{
+    font-size: large;
+}
+.c4 li:first-child{
+    color: rgb(29, 108, 6);
+}
+.c5 li:nth-child(3n){
+    color: rgb(29, 108, 6);
+}
+.c6 li:nth-child(even){
+    color: rgb(29, 108, 6);
+}
+.c7 li:nth-child(odd){
+    color: rgb(29, 108, 6);
+}
