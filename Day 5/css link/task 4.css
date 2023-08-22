@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+}
+body{
+    background-image: url(https://t3.ftcdn.net/jpg/02/09/56/98/360_F_209569800_VIZpMGyTiA17cGGHXwN6yzygDilMdcuy.jpg);
+    background-size: cover;
+}
+.container1{
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    padding: 1px;
+}
+img{
+    width: 250px;
+    height: 200px;
+    margin-top: 15px;
+}
+.s2{
+    margin-top: 15px;
+    background-color: white;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+.s3{
+    margin-top: 15px;
+    background-color: cyan;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300; 
+}
+.s4{
+    margin-top: 15px;
+    background-color: rgb(239, 205, 11);
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+.container2{
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    padding: 1px;
+}
+.s5{
+    margin-top: 14px;
+    background-color: white;
+    width: 18.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 250;
+}
+.s6{
+    margin-top: 10px;
+    background-color: cyan;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+.s7{
+    margin-top: 15px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+}

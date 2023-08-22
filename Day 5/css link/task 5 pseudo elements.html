@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title> Pseudo elements</title>
+</head>
+<body>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .c1 p::first-letter{
+            font-style: italic;
+            color: green;
+            font-size: large;   
+        }
+        .c2 p::first-line{
+            background-color: pink;
+            color: olive;
+            font-size: large;
+        }
+        .c3 p::selection{
+            color: red;
+            background-color: burlywood;
+        }
+        .c4 p::before{
+            content: "TREE !!!";
+            color: rgb(14, 126, 126);
+        }
+        .c5 p::after{
+            content:"  THE END !!" ;
+            color: rgb(14, 144, 144);
+        }
+        ul li::marker{
+            color: rgb(52, 8, 162);
+        }
+        .c6 p::before{
+            content: "TREE!!!";
+            color: rgb(205, 69, 92);
+        }
+        .c6 p::after{
+            content: "THE END !!";
+            color: rgb(122, 116, 116);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>PSEUDO ELEMENTS</h1>
+    <h2>1. First Letter</h2>
+    <div class="c1">
+        <p style="text-indent: 10%;">Woody plant that regularly renews its growth (perennial). Most plants classified as trees have a single self-supporting trunk containing woody tissues, and in most species the trunk produces secondary limbs, called branches.To many, the word tree evokes images of such ancient, powerful, and majestic structures as oaks and sequoias, the latter being among the most massive and longest-living organisms in the world. </p>
+    </div>
+    <h2>2. First Line</h2>
+    <div class="c2">
+        <p style="text-indent: 10%;">Woody plant that regularly renews its growth (perennial). Most plants classified as trees have a single self-supporting trunk containing woody tissues, and in most species the trunk produces secondary limbs, called branches.To many, the word tree evokes images of such ancient, powerful, and majestic structures as oaks and sequoias, the latter being among the most massive and longest-living organisms in the world. </p>
+    </div>
+    <h2>3. Selection</h2>
+    <div class="c3">
+        <p style="text-indent: 10%;">Woody plant that regularly renews its growth (perennial). Most plants classified as trees have a single self-supporting trunk containing woody tissues, and in most species the trunk produces secondary limbs, called branches.To many, the word tree evokes images of such ancient, powerful, and majestic structures as oaks and sequoias, the latter being among the most massive and longest-living organisms in the world. </p>
+    </div>
+    <h2>4. Before</h2>
+    <div class="c4">
+        <p style="text-indent: 10%;">Woody plant that regularly renews its growth (perennial). Most plants classified as trees have a single self-supporting trunk containing woody tissues, and in most species the trunk produces secondary limbs, called branches.To many, the word tree evokes images of such ancient, powerful, and majestic structures as oaks and sequoias, the latter being among the most massive and longest-living organisms in the world. </p>
+    </div>
+    <h2>5. After</h2>
+    <div class="c5">
+        <p style="text-indent: 10%;">Woody plant that regularly renews its growth (perennial). Most plants classified as trees have a single self-supporting trunk containing woody tissues, and in most species the trunk produces secondary limbs, called branches.To many, the word tree evokes images of such ancient, powerful, and majestic structures as oaks and sequoias, the latter being among the most massive and longest-living organisms in the world. </p>
+    </div>
+    <h2>6. Marker</h2>
+        <ul>
+            <li>Pavi</li>
+            <li>Diya</li>
+            <li>Sarah</li>
+            <li>Yashh</li>
+            <li>Ammu</li>
+        </ul>
+    <h2>7. Multiple </h2>
+    <div class="c6">
+        <p style="text-indent: 10%;">Woody plant that regularly renews its growth (perennial). Most plants classified as trees have a single self-supporting trunk containing woody tissues, and in most species the trunk produces secondary limbs, called branches.To many, the word tree evokes images of such ancient, powerful, and majestic structures as oaks and sequoias, the latter being among the most massive and longest-living organisms in the world. </p>
+    </div>
+
+</body>
+</html>
