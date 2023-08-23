@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+       .box{
+        display: flex;
+        justify-content: space-around;
+        padding-right: 400px;
+       }
+       .content{
+        display: flex;
+
+       }
+       .box1{
+        background-color: rgb(112, 204, 241);
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+       }
+       .box2{
+        background-color: rgb(112, 204, 241);
+        width: 200px;
+        height: 200px;
+        border: 20px solid navy;
+        margin: 10px;
+       }
+       .box3{
+        background-color: rgb(112, 204, 241);
+        width: 200px;
+        height: 200px;
+        border: 20px solid navy;
+        padding: 20px; 
+        margin-top: 20px;
+       }
+       .box4{
+        background-color: rgb(112, 204, 241);
+        width: 200px;
+        height: 200px;
+        border: 20px solid navy;
+        padding: 20px;
+        margin: 20px;
+       }
+       p{
+         justify-content: space-between;
+       }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <p>200 X 200</p>
+    <p>+Border :20</p>
+    <p>+ Padding : 20</p>
+    <p>+ Margin : 20</p>
+    </div>
+    
+    <div class="content">
+    <div class="box1">
+        <p>Width: 200 <br>
+            Height: 200 <br>
+            -------------- <br>
+            Total: 200 * 200
+        </p>
+    </div>
+    <div class="box2">
+        <p>Width: 200 <br>
+            Height: 200 <br>
+            Border : 20
+            -------------- <br>
+            Total: 240 * 240
+        </p>
+    </div>
+    <div class="box3">
+        <p>Width: 200 <br>
+            Height: 200 <br>
+            Border: 20 <br>
+            Padding : 20 <br>
+            -------------- <br>
+            Total: 280 * 280
+        </p>
+    </div>
+    <div class="box4">
+        <p>Width: 200 <br>
+            Height: 200 <br>
+            Border: 20 <br>
+            Padding : 20 <br>
+            Margin : 20 <br>
+            -------------- <br>
+            Overall: 280 * 280
+        </p>
+    </div>
+</div>
+    
+</body>
+</html>
